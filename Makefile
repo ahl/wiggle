@@ -26,7 +26,7 @@
 all: wiggle
 
 wiggle: wiggle.c
-	gcc -wall -o wiggle wiggle.c -framework ApplicationServices
+	gcc -Wall -o wiggle wiggle.c -framework ApplicationServices
 
 clean:
 	rm wiggle
